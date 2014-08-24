@@ -39,7 +39,7 @@ if limit > 0:
 		i = i+1
 
 	#Obtenemos el primos mas grande
-	mayor = primos.pop()
+	mayor = primos[len(primos)-1]
 	print 'Se encontraron %d numeros primos' % (len(primos))
 	print 'El mas alto es %d y contiene %d digitos' %(mayor,len(str(mayor)))
 
